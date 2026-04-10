@@ -1,16 +1,7 @@
 ## EventHub — Event and Participant Management System
 
 This repository contains the implementation of the **EventHub** full‑stack application for the *Web Programming 2026* Master 1 project.
-
-The goal is to provide a complete, deployable system that demonstrates:
-
-- **Relational data modeling**
-- **REST API design and implementation**
-- **Backend technology comparison (Django vs Node/Express)**
-- **React Single Page Application**
-- **Frontend–backend integration with authentication and roles**
-- **Production‑ready deployment configuration**
-
+web app is publicly available at https://projet-web2.vercel.app/login
 ---
 
 ### 1. Repository Structure
@@ -164,7 +155,7 @@ npm install
 npm run dev
 ```
 
-The dev server (Vite or similar) will be available at `http://127.0.0.1:5173/`.
+The dev server will be available at `http://127.0.0.1:5173/`.
 
 Make sure the Django backend is running and that the frontend `.env` is configured with the correct API base URL.
 
@@ -193,19 +184,3 @@ copy .env.example .env   # Windows PowerShell: Copy-Item .env.example .env
     - `VITE_API_BASE_URL` (Django API root)
 
 ---
-
-### 7. Deployment Notes (Lab 10)
-
-Typical deployment setup:
-
-- **Backend**
-  - Django via Render
-- **Frontend**
-  - Built static bundle served via Vercel
-- **Configuration**
-  - Use environment variables for API URLs and secrets
-  - Enable production settings (no `DEBUG`, proper `ALLOWED_HOSTS`, HTTPS)
-
-
-
-
