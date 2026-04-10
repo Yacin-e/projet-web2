@@ -3,10 +3,11 @@
 This repository contains the implementation of the **EventHub** full‑stack application for the *Web Programming 2026* Master 1 project.
 
 web app is publicly available at https://projet-web2.vercel.app/login
-admin user
+
+- admin user
 username : yacine 
 password : admin
-viewer user
+- viewer user
 username : test
 password : Yacine00
 ---
